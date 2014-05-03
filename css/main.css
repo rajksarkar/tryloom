@@ -93,21 +93,195 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    color: #5590f0;
+}
 
+a {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none;
+}
 
+.spoiler.top {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: #5590f0;
+    color: #CAD6F0;
+    text-align: center;
+    padding: 5px;
+}
 
+.spoiler.top a {
+    color: #CAD6F0;
+}
 
+.spoiler.top a:hover {
+    color: #CAD6F0;
+}
 
+.hero {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 550px;
+    background-image: url('../img/cloud_front.png');
+    background-repeat: no-repeat;
+    background-color: #1b4691;
+    background-position: 0px 240px;
+    padding-top: 130px;
+    color: white;
+    font-weight: 300;
+}
 
+.hero h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
 
+.hero h1 a{
+    color: white;
+}
 
+.hero h1 a:hover {
+    color: white;
+}
 
+.hero h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0;
+}
 
+.inner-content {
+    max-width: 968px;
+    margin: 0px auto;
+}
 
+.callout {
+    font-size: 22px;
+    color: #5590f0;
+    font-weight: 100;
+    text-align: center;
+    max-width: 700px;
+    margin: 0px auto;
+}
 
+.callout strong {
+    font-weight: 400;
+}
 
+.second-callout {
+    max-width: 460px;
+}
 
+.second-callout a{
+    color: #5590f0;
+}
+
+.second-callout a:hover{
+    color: #5590f0;
+}
+
+.placer-callout {
+}
+
+.placer-callout img {
+    margin-right: 15px;
+    float: left;
+}
+
+.placer-callout span {
+    float: left;
+    width: 80%
+}
+
+.inner-second-level {
+    margin-top: 50px;
+}
+
+.inner-third-level {
+    margin-top: 30px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #CCCCCC;
+    box-shadow: 0 5px 5px -2px #C8C8C8;
+    -moz-box-shadow: 0 5px 5px -2px #C8C8C8;
+    -webkit-box-shadow: 0 5px 5px -2px #C8C8C8;
+    margin-bottom: 65px;
+}
+
+.inner-third-level .placard {
+    text-align: center;
+}
+
+.mid-align {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.inner-fourth-level {
+    margin-bottom: 40px;
+}
+
+.inner-fifth-level {
+    margin-bottom: 70px;
+}
+
+.desc-text span{
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.desc-btn-block {
+    margin-top: 30px;
+}
+
+.inner-sixth-level {
+    margin-bottom: 50px;
+}
+
+.greytxt {
+    font-size: 18px;
+    font-weight: 100;
+    color: #a0a5b9;
+}
+
+.greytxt strong{
+    font-weight: 400;
+}
+
+.greytxt a {
+    color: #a0a5b9;
+}
+
+.greytxt a:hover {
+    color: #a0a5b9;
+}
+
+.footer {
+    max-width: 1080px;
+    margin-bottom: 30px;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.footer span {
+    font-size: 12px;
+    color: #a0a5b9;
+}
+
+.footer .contact-us-area {
+    padding-top: 20px;
+}
 
 /* ==========================================================================
    Helper classes
