@@ -141,6 +141,22 @@ a:hover {
     margin-bottom: 20px;
 }
 
+@media all and (min-width: 500px) and (max-width: 768px) {
+    .hero {
+        min-height: 550px;
+        background-position: 0px 330px;
+        text-align: center;
+    }    
+}
+
+@media all and (max-width: 500px) {
+    .hero {
+        min-height: 700px;
+        background-position: 0px 430px;
+        text-align: center;
+    }    
+}
+
 .hero h1 {
     font-size: 45px;
     font-weight: 300;
@@ -197,11 +213,22 @@ a:hover {
 .placer-callout img {
     margin-right: 15px;
     float: left;
+    margin-left: 21px;
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+    .placer-callout img {
+        margin-left: 0px;
+    }    
 }
 
 .placer-callout span {
     float: left;
-    width: 80%
+    width: 70%
+}
+
+img.img-responsive {
+    margin: 0px auto;
 }
 
 .inner-second-level {
@@ -218,8 +245,13 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.inner-third-level .placard {
+@media all and (max-width: 992px) {
+    .inner-third-level .placard {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }    
 }
+
 
 .mid-align {
     margin: 0px auto;
@@ -239,9 +271,24 @@ a:hover {
     line-height: 2em;
 }
 
+@media all and (max-width: 992px) and (min-width: 768px) {
+    .desc-text span{
+        font-size: 14px;
+        line-height: 1em;
+    }
+}
+
 .desc-btn-block {
     margin-top: 30px;
 }
+
+@media all and (max-width: 992px) {
+    .desc-btn-block  div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }    
+}
+
 
 .inner-sixth-level {
     margin-bottom: 50px;

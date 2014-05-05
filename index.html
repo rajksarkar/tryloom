@@ -170,6 +170,11 @@
 
         <script>
             $('#link').click(function () {
+                var screenWidth = $(window).width();
+                if (screenWidth < 810) {
+                    document.location.href = "https://www.youtube.com/watch?v=FEd92Put6w4";
+                    return;
+                }
                 var src = 'http://www.youtube.com/v/FEd92Put6w4&amp;autoplay=1';
                 $('#videoModal').modal('show');
                 $('#videoModal iframe').attr('src', src);
