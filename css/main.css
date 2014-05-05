@@ -287,6 +287,46 @@ a:hover {
     padding-top: 20px;
 }
 
+.overlay-btn-block a {
+    float: left;
+    margin-right: 15px;
+}
+
+.overlay-btn-block a:last-child {
+    margin-right: 0px;
+}
+
+.overlay-btn-block .btns {
+    margin: 0px auto;
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+/* ==========================================================================
+   Bootstrap Overrides
+   ========================================================================== */
+.modal-body {
+    padding: 0;
+    background: transparent;
+}
+
+
+.modal-dialog {
+    background: transparent;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.modal-content {
+    background: transparent;
+    box-shadow: none;
+}
+
+.modal-backdrop.in {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
