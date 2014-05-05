@@ -109,6 +109,7 @@ a:hover {
 
 .spoiler.top {
     font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
     font-weight: 300;
     background: #5590f0;
     color: #CAD6F0;
@@ -124,20 +125,24 @@ a:hover {
     color: #CAD6F0;
 }
 
+.loom-icon {
+}
+
 .hero {
     font-family: 'Open Sans', sans-serif;
-    min-height: 550px;
+    min-height: 400px;
     background-image: url('../img/cloud_front.png');
     background-repeat: no-repeat;
     background-color: #1b4691;
-    background-position: 0px 240px;
-    padding-top: 130px;
+    background-position: 0px 150px;
+    padding-top: 40px;
     color: white;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 300;
     margin: 0;
 }
@@ -206,15 +211,14 @@ a:hover {
 .inner-third-level {
     margin-top: 30px;
     padding-bottom: 70px;
-    border-bottom: 1px solid #CCCCCC;
-    box-shadow: 0 5px 5px -2px #C8C8C8;
-    -moz-box-shadow: 0 5px 5px -2px #C8C8C8;
-    -webkit-box-shadow: 0 5px 5px -2px #C8C8C8;
-    margin-bottom: 65px;
+}
+
+.special-shadow {
+    margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 .inner-third-level .placard {
-    text-align: center;
 }
 
 .mid-align {

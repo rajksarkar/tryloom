@@ -31,12 +31,12 @@
 
             <div class="hero">
                 <div class="row">
-                   <div class="col-sm-offset-2 col-sm-3">
-                        <img src="img/loom_icon.jpg" />
+                   <div class="col-sm-offset-2 col-sm-2">
+                        <img class="img-responsive loom-icon" src="img/loom_icon.jpg" />
                    </div> 
-                   <div class="col-sm-6">
+                   <div class="col-sm-8">
                         <h2>Coming Soon:</h2> <br />
-                        <h1><a href="http://continuuity.github.io/loom/" target="_blank">Continuuity</a> <strong><a href="http://continuuity.github.io/loom/" target="_blank">Loom</a></strong></h1> <br />
+                        <h1><a href="http://continuuity.github.io/loom/" target="_blank">Continuuity</a> <strong><a href="http://continuuity.github.io/loom/" target="_blank">Loom</a></strong></h1><br>
                         <h1>For Free In The Cloud</h1>
                    </div> 
                 </div>
@@ -75,20 +75,21 @@
                 <div class="row inner-third-level">
                     <div class="col-sm-4 placard">
                         <div class="placer-image">
-                            <img src="img/step01_graph.png" />
+                            <img class="img-responsive" src="img/step01_graph.png" />
                         </div>
                     </div>
                     <div class="col-sm-4 placard">
                         <div class="placer-image">
-                            <img src="img/step02_graph.png" />
+                            <img class="img-responsive" src="img/step02_graph.png" />
                         </div>
                     </div>
                     <div class="col-sm-4 placard">
                         <div class="placer-image">
-                            <img src="img/step03_graph.png" />
+                            <img class="img-responsive" src="img/step03_graph.png" />
                         </div>
                     </div>
                 </div>
+                <img class="img-responsive special-shadow" src="img/shadow2.png" />
                 <div class="row inner-fourth-level">
                     <div>
                         <div class="mid-align callout second-callout">
@@ -100,7 +101,7 @@
                     <div>
                         <div class="col-sm-6">
                             <a href="https://www.youtube.com/watch?v=FEd92Put6w4" target="_blank">
-                                <img src="img/videoplayer.jpg" />
+                                <img class="img-responsive" src="img/videoplayer.jpg" />
                             </a>
                         </div>
                         <div class="col-sm-6 desc-text">
@@ -108,13 +109,13 @@
                             Continuuity Loom is cluster management software that provisions, manages, and scales clusters on public clouds and private clouds. Clusters created with Loom utilize templates of any hardware or software stack, from simple standalone LAMP-stack servers and traditional application servers like JBoss to secure Apache Hadoop clusters comprised of thousand of nodes.</span>
                             <div class="row desc-btn-block">
                                 <div class="col-sm-4">
-                                    <a href="https://github.com/continuuity/loom/zipball/develop"><img src="img/btn_download.png" /></a>
+                                    <a href="https://github.com/continuuity/loom/zipball/develop"><img class="img-responsive" src="img/btn_download.png" /></a>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="https://github.com/continuuity/loom" target="_blank"><img src="img/btn_github.png" /></a>
+                                    <a href="https://github.com/continuuity/loom" target="_blank"><img class="img-responsive" src="img/btn_github.png" /></a>
                                 </div>
                                 <div class="col-sm-4">
-                                    <a href="http://continuuity.github.io/loom/" target="_blank"><img src="img/btn_learnmore.png" /></a>
+                                    <a href="http://continuuity.github.io/loom/" target="_blank"><img class="img-responsive" src="img/btn_learnmore.png" /></a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +131,7 @@
             </div>
             <div class="footer">
                 <div class="left-float">
-                    <a href="http://www.continuuity.com" target="_blank"><img src="img/continuuity_logo.png" /></a>
+                    <a href="http://www.continuuity.com" target="_blank"><img class="img-responsive" src="img/continuuity_logo.png" /></a>
                 </div>
                 <div class="right-float contact-us-area">
                     <a href="http://continuuity.com/contact-us?sales" target="_blank"><img src="img/phone_icon.png" /> <span>Contact Sales for Enterprise Support</span></a>
@@ -148,10 +149,12 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-50625079-1', 'tryloom.io');
+          ga('send', 'pageview');
         </script>
     </body>
 </html>
