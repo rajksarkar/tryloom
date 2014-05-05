@@ -367,6 +367,7 @@ img.img-responsive {
 .modal-content {
     background: transparent;
     box-shadow: none;
+    border: none;
 }
 
 .modal-backdrop.in {
